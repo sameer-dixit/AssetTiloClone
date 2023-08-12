@@ -1,0 +1,520 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap'); */
+/* selecting all custom styles starts */
+body {
+    font-family: Poppins, sans-serif;
+    color: #444444;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Jost", sans-serif;
+}
+
+.brand-color {
+    background-color: #610870;
+}
+
+section {
+    padding: 60px 0px;
+}
+
+/* selecting all custom heading with sections */
+.heading-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: #610870;
+}
+
+/* selecting all custom styles ends */
+
+
+/* navbar */
+.navbar-section {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: all 0.5s;
+    z-index: 997;
+}
+
+.brand-logo {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family: "Signika", "Heebo", "Poppins", sans-serif;
+    letter-spacing: 2px;
+    line-height: 1;
+}
+
+.brand-logo a:hover {
+    text-decoration: none;
+}
+
+.nav-item {
+    padding-left: 15px;
+}
+
+.nav-item a {
+    color: white;
+    padding: 10px 0 10px 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-item a .active {
+    text-decoration: underline;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+.nav-btn {
+    padding: 8px 20px;
+    margin-left: 30px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 50px;
+    width: 100px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+
+}
+
+.nav-btn:hover {
+    background-color: white;
+    color: #610870;
+    text-decoration: underline;
+}
+
+/* navbar ends */
+/* mobile navbar */
+
+.mobile-nav {
+    position: fixed;
+    background-color: #610870;
+    width: 100%;
+    z-index: 999;
+    top: 60px;
+}
+
+.mobile-nav ul {
+    background-color: white;
+    color: #610870;
+    list-style-type: none;
+    display: block;
+    padding: 10px 0px;
+    border-radius: 10px;
+    top: 55px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+}
+
+.mobile-nav ul li a {
+    color: #610870;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+/* hero advertisng */
+#hero {
+    min-height: 80vh;
+    /* padding-top: 72px;
+    padding-bottom: 72px; */
+}
+
+#hero h1 {
+    font-size: 48px;
+    color: white;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    #hero {
+        width: 100%;
+        height: 100vh;
+        padding-top: 72px;
+        padding-bottom: 72px;
+        text-align: center;
+
+    }
+
+    #hero .container {
+        padding: 72px 12px;
+    }
+
+    #hero h1 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+}
+
+.hero-btn-get-started {
+    padding: 11px 28px;
+    /* margin-left: 30px; */
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 50px;
+    background: white;
+    color: #610870;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-family: "Jost", sans-serif;
+    margin-right: 2px;
+
+
+}
+
+.hero-btn-get-started:hover {
+    background-color: black;
+    color: white;
+}
+
+.hero-btn-demo {
+    margin-left: 2px;
+    padding: 11px 28px;
+    /* margin-left: 30px; */
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 50px;
+    background: white;
+    color: #610870;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-family: "Jost", sans-serif;
+}
+
+.hero-btn-demo:hover {
+    background-color: black;
+    color: white;
+}
+
+/* hero ends here */
+
+
+
+
+
+
+
+/* assete management box  */
+.asset-box-container {
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.card-assets {
+    background-color: white;
+    padding: 50px 30px;
+    box-shadow: 0px 0 25px 0 rgb(0 0 0 / 10%);
+}
+
+.card-assets .icon-container {
+    margin-bottom: 10px;
+}
+
+.card-assets h4 {
+    color: #610870;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 24px;
+
+}
+
+.card-assets p {
+    font-size: 14px;
+    line-height: 24px;
+
+}
+
+.card-assets .icon-container i {
+    font-size: 34px;
+    color: #111111;
+}
+
+
+.why-us-list-container {
+    list-style-type: none;
+    padding: 0px;
+}
+
+/* .why-us-list-item {
+} */
+
+.why-us-list-item .why-us-icon-check {
+    font-size: 20px;
+    color: #610870;
+    line-height: 1;
+    padding-right: 10px;
+
+}
+
+/* wwhy us ends here */
+
+/* leadership section */
+.team-leader {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+
+.team-leader .leader-pic img {
+    width: 180px;
+    border-radius: 50%;
+}
+
+.team-leader .team-leader-description {
+    padding-left: 20px;
+}
+
+.team-leader .team-leader-description .team-leader-description-name {
+    color: #111111;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.team-leader .team-leader-description .team-leader-description-role {
+    font-weight: 500;
+    font-size: 15px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.team-leader .team-leader-description p {
+    font-size: 14px;
+}
+
+/* leadership ends here */
+
+#asset-action {
+    background: linear-gradient(rgb(97, 8, 112), rgba(40, 58, 90, 0.9)), url(/assets/images/asset-background.jpg)fixed center center;
+    background-size: cover;
+    padding: 120px 0px;
+}
+
+#asset-action h3 {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+#asset-action p {
+    color: white;
+}
+
+.asset-action-btn {
+    background: transparent;
+    border: 2px solid white;
+    font-family: "Jost", sans-serif;
+    color: white;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 12px 40px;
+    border-radius: 50px;
+}
+
+.asset-action-btn-container a:hover {
+    text-decoration: none;
+    border: none;
+    background: #610870;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .asset-action-explanation-container {
+        text-align: center;
+        margin-bottom: 16px;
+    }
+}
+
+
+.contact-info {
+    padding: 30px;
+    border-top: 3px solid #610870;
+    border-bottom: 3px solid #610870;
+    background: white;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 10%);
+}
+
+/* .contact-info-container{
+
+  } */
+
+.contact-info-container i {
+    font-size: 25px;
+    color: #610870;
+    width: 44px;
+    height: 44px;
+    float: left;
+    border-radius: 50%;
+    background: #e7f5fb;
+}
+
+.contact-info-container h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #610870;
+}
+
+.contact-info-container p {
+    padding: 0 0 0 60px;
+    font-size: 14px;
+    color: #6182ba;
+    margin-bottom: 20px;
+}
+
+.contact-info-map-container {
+    width: 100%;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 100%;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 100%;
+    width: 100%;
+}
+
+.footer-full-container {
+    background: black;
+}
+
+.footer-top-container {
+    background-color: white;
+    padding: 60px 0 30px 0;
+}
+
+.footer-top-container .footer-top-branding-info .brand-heading {
+    font-size: 30px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.brand-heading span {
+    font-family: "Signika", "Heebo", "Poppins", sans-serif;
+}
+
+.brand-heading-info p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0px;
+    color: #5e5e5e;
+    font-weight: 650;
+    /* line-height: 20px; */
+}
+
+.footer-top-branding-useful-links h4 {
+    color: #610870;
+    font-weight: bold;
+    padding-bottom: 12px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-top-branding-useful-links h4 {
+        color: #610870;
+        font-weight: bold;
+        padding-bottom: 5px;
+        font-size: 16px;
+    }
+}
+
+.footer-top-branding-useful-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-top-branding-useful-links ul li:first-child {
+    padding-top: 5px;
+
+}
+
+.footer-top-branding-useful-links ul li {
+    padding: 15px 0;
+    font-size: 14px;
+
+}
+
+.footer-top-branding-useful-links ul li i {
+    padding-right: 6px;
+    font-size: 12px;
+    line-height: 1;
+
+}
+
+.footer-top-branding-useful-links ul li a {
+    color: #777777;
+    line-height: 1;
+
+}
+
+.footer-top-branding-useful-links ul li a:hover {
+    color: #610870;
+    text-decoration: none;
+
+}
+
+.footer-bottom-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.copy-right-container {
+    float: left;
+
+    /* margin-bottom: 30px; */
+}
+
+#btn-back-to-top {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background: #610870;
+    border-radius: 50px;
+    right: 15px;
+    bottom: 15px;
+    -webkit-box-shadow: 4px 0px 9px -2px rgb(0, 0, 0);
+    -moz-box-shadow: 4px 0px 9px -2px rgba(191, 0, 191, 1);
+    box-shadow: 4px 0px 9px -2px rgba(191, 0, 191, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+#btn-back-to-top i {
+    font-size: 24px;
+    color: white;
+    line-height: 0;
+    font-weight: 200;
+
+}

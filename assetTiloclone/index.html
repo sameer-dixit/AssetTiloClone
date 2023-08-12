@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- google fonts -->
+    <!-- TO DO: Put font -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+
+    <!-- font wesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <header class="brand-color navbar-section fixed-top">
+        <div class="container d-flex align-items-center">
+            <h1 class="brand-logo mr-auto">
+                <a href="" style="color: white;cursor: pointer;">Asset Tilo</a>
+            </h1>
+
+            <nav class="navbar navbar-expand-lg navbar-with-menus" style="padding: 0;">
+                <button class="navbar-toggler" type="button" onclick="mobileMenuDisplay()">
+                    <i class="fa fa-bars" aria-hidden="true" style="color: white;font-size: 28px;font-weight: 200;"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Free Consultation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Why Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="nav-btn">Register</button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav id="mobile-nav" class="navbar mobile-nav" style="display: none;">
+        <ul>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Free Consultation</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Why Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+                <button type="button" class="nav-btn">Register</button>
+            </li>
+        </ul>
+
+    </nav>
+    <div id="hero" class="brand-color d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div
+                    class="col-lg-6 d-flex flex-column justify-content-center order-2 order-lg-1 text-lg-start pt-4 pt-lg-0">
+                    <h1 class="text-center text-lg-left">Asset management simplified for small business</h1>
+
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                        <button type="button" class="hero-btn-get-started">Get Started</button>
+                        <button type="button" class="hero-btn-demo"><i class="fa fa-calendar-check-o" aria-hidden="true"
+                                style="margin-right: 6px;"></i>Book Free Consultation</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-center align-items-center order-1 order-lg-2">
+                    <img src="assets/images/hero-img.png" alt="" srcset="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="asset-mngt" class="bg-light">
+        <div class="col-lg-12 d-flex justify-content-center align-items-center heading-title">
+            <h2 class="text-center">A FULLY-FEATURED SOLUTION FOR ASSET MANAGEMENT</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch pt-4 pt-md-0 asset-box-container">
+                    <div class="card-assets">
+                        <div class="icon-container">
+                            <i class="fa fa-qrcode" aria-hidden="true"></i>
+                        </div>
+                        <h4>Vendor Management</h4>
+                        <p>Put your vendors and their contacts details together for easy retrival in time of need. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch pt-4 pt-md-0 asset-box-container">
+                    <div class="card-assets">
+                        <div class="icon-container">
+                            <i class="fa fa-qrcode" aria-hidden="true"></i>
+                        </div>
+                        <h4>Vendor Management</h4>
+                        <p>Put your vendors and their contacts details together for easy retrival in time of need. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch pt-4 pt-md-0 asset-box-container">
+                    <div class="card-assets">
+                        <div class="icon-container">
+                            <i class="fa fa-qrcode" aria-hidden="true"></i>
+                        </div>
+                        <h4>Vendor Management</h4>
+                        <p>Put your vendors and their contacts details together for easy retrival in time of need. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch pt-4 pt-md-0 asset-box-container">
+                    <div class="card-assets">
+                        <div class="icon-container">
+                            <i class="fa fa-qrcode" aria-hidden="true"></i>
+                        </div>
+                        <h4>Vendor Management</h4>
+                        <p>Put your vendors and their contacts details together for easy retrival in time of need. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch pt-4 asset-box-container">
+                    <div class="card-assets">
+                        <div class="icon-container">
+                            <i class="fa fa-qrcode" aria-hidden="true"></i>
+                        </div>
+                        <h4>Vendor Management</h4>
+                        <p>Put your vendors and their contacts details together for easy retrival in time of need. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch pt-4 asset-box-container">
+                    <div class="card-assets">
+                        <div class="icon-container">
+                            <i class="fa fa-qrcode" aria-hidden="true"></i>
+                        </div>
+                        <h4>Vendor Management</h4>
+                        <p>Put your vendors and their contacts details together for easy retrival in time of need. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch pt-4 asset-box-container">
+                    <div class="card-assets">
+                        <div class="icon-container">
+                            <i class="fa fa-qrcode" aria-hidden="true"></i>
+                        </div>
+                        <h4>Vendor Management</h4>
+                        <p>Put your vendors and their contacts details together for easy retrival in time of need. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch pt-4 asset-box-container">
+                    <div class="card-assets">
+                        <div class="icon-container">
+                            <i class="fa fa-qrcode" aria-hidden="true"></i>
+                        </div>
+                        <h4>Vendor Management</h4>
+                        <p>Put your vendors and their contacts details together for easy retrival in time of need. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch pt-4 asset-box-container">
+                    <div class="card-assets">
+                        <div class="icon-container">
+                            <i class="fa fa-qrcode" aria-hidden="true"></i>
+                        </div>
+                        <h4>Vendor Management</h4>
+                        <p>Put your vendors and their contacts details together for easy retrival in time of need. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch pt-4 asset-box-container">
+                    <div class="card-assets">
+                        <div class="icon-container">
+                            <i class="fa fa-qrcode" aria-hidden="true"></i>
+                        </div>
+                        <h4>Vendor Management</h4>
+                        <p>Put your vendors and their contacts details together for easy retrival in time of need. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch pt-4 asset-box-container">
+                    <div class="card-assets">
+                        <div class="icon-container">
+                            <i class="fa fa-qrcode" aria-hidden="true"></i>
+                        </div>
+                        <h4>Vendor Management</h4>
+                        <p>Put your vendors and their contacts details together for easy retrival in time of need. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch pt-4 asset-box-container">
+                    <div class="card-assets">
+                        <div class="icon-container">
+                            <i class="fa fa-qrcode" aria-hidden="true"></i>
+                        </div>
+                        <h4>Vendor Management</h4>
+                        <p>Put your vendors and their contacts details together for easy retrival in time of need. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="why-us">
+        <div class="col-lg-12 d-flex justify-content-center align-items-center heading-title">
+            <h2 class="text-center">WHY US</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 why-us-container">
+                    <ul class="why-us-list-container">
+                        <li class="why-us-list-item">
+                            <p><i class="fa fa-check-square why-us-icon-check" aria-hidden="true"></i>First of its kind
+                                asset management software specifically designed for StartUps and SMBs.</p>
+                        </li>
+                        <li class="why-us-list-item">
+                            <p><i class="fa fa-check-square why-us-icon-check" aria-hidden="true"></i>First of its kind
+                                asset management software specifically designed for StartUps and SMBs.</p>
+                        </li>
+                        <li class="why-us-list-item">
+                            <p><i class="fa fa-check-square why-us-icon-check" aria-hidden="true"></i>First of its kind
+                                asset management software specifically designed for StartUps and SMBs.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-12 why-us-container">
+                    <ul class="why-us-list-container">
+                        <li class="why-us-list-item">
+                            <p><i class="fa fa-check-square why-us-icon-check" aria-hidden="true"></i>First of its kind
+                                asset management software specifically designed for StartUps and SMBs.</p>
+                        </li>
+                        <li class="why-us-list-item">
+                            <p><i class="fa fa-check-square why-us-icon-check" aria-hidden="true"></i>First of its kind
+                                asset management software specifically designed for StartUps and SMBs.</p>
+                        </li>
+                        <li class="why-us-list-item">
+                            <p><i class="fa fa-check-square why-us-icon-check" aria-hidden="true"></i>First of its kind
+                                asset management software specifically designed for StartUps and SMBs.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="leadership-team" class="bg-light">
+        <div class="col-lg-12 d-flex justify-content-center align-items-center heading-title">
+            <h2 class="text-center">LEADERSHIP TEAM</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="team-leader d-flex align-items-start">
+                        <div class="leader-pic">
+                            <img src="assets/images/deepak.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="team-leader-description">
+                            <h4 class="team-leader-description-name">Deepak Srinath</h4>
+                            <h4 class="team-leader-description-role">Chief Executive Officer</h4>
+                            <p>Have been in the field of IT assets sales and management from last 16 years</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <div class="team-leader d-flex align-items-start">
+                        <div class="leader-pic">
+                            <img src="assets/images/sachin.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="team-leader-description">
+                            <h4 class="team-leader-description-name">Deepak Srinath</h4>
+                            <h4 class="team-leader-description-role">Chief Executive Officer</h4>
+                            <p>Have been in the field of IT assets sales and management from last 16 years</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="asset-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 text-lg-start asset-action-explanation-container">
+                    <h3>See Asset Tilo in action</h3>
+                    <p>
+                        Create your free account today and transform your company's asset management system
+                    </p>
+                </div>
+                <div class="col-lg-3 asset-action-btn-container text-center">
+                    <a href="" class="asset-action-btn align-middle">Get Started</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="contact">
+        <div class="col-lg-12 d-flex justify-content-center align-items-center heading-title">
+            <h2 class="text-center">CONTACT</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 d-flex align-items-stretch">
+                    <div class="contact-info contact-info-section">
+                        <div class="contact-info-location contact-info-container">
+                            <i class="fa fa-map-marker d-flex align-items-center justify-content-center"
+                                aria-hidden="true"></i>
+                            <h4>Location:</h4>
+                            <p>50, 9th A Main Rd, Indira Nagar 1st Stage, Stage 1, Indiranagar, Bengaluru, Karnataka
+                                560038</p>
+                        </div>
+                        <div class="contact-info-location contact-info-container">
+                            <i class="fa fa-envelope d-flex align-items-center justify-content-center"
+                                aria-hidden="true"></i>
+                            <h4>Email:</h4>
+                            <p>example@gmail.com</p>
+                        </div>
+                        <div class="contact-info-location contact-info-container">
+                            <i class="fa fa-mobile d-flex align-items-center justify-content-center"
+                                aria-hidden="true"></i>
+                            <h4>Call:</h4>
+                            <p>+91 00-000-00-000</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-7 d-flex align-items-stretch mt-4 mt-lg-0">
+                    <div class="contact-info contact-info-map-container">
+                        <div class="mapouter">
+                            <div class="gmap_canvas">
+                                <iframe width="600" height="450" id="gmap_canvas"
+                                    src="https://maps.google.com/maps?q=vijayapura&t=&z=10&ie=UTF8&iwloc=&output=embed"
+                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                                </iframe>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-full-container">
+        <div class="footer-top-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-top-branding-info">
+                        <div class="brand-heading">
+                            <!-- logo font not loading correct this -->
+                            <span style="color: black;">Asset</span>
+                            <span style="color: #610870">Tilo</span>
+                        </div>
+                        <div class="brand-heading-info">
+                            <p>
+                                50, 9th A Main Rd,
+                                <br>
+                                Indira Nagar 1st Stage, Stage 1,
+                                <br>
+                                Indiranagar, Bengaluru,
+                                <br>
+                                Karnataka 560038
+                                <br>
+                                <br>
+                                <strong>Phone:</strong>
+                                +91 98863 49620
+                                <br>
+                                <strong>Email:</strong>
+                                deepak@techtilo.com
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-top-branding-useful-links mt-4 mt-lg-0">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li class="d-flex align-items-center">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="">Home</a>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="">Why Us</a>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="">Terms of Service</a>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="">Privacy policy</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom-container">
+            <div class="copy-right-container">
+                © Copyright
+                <strong>
+                    <span>TechTilo</span>
+                </strong>
+                . All Rights Reserved
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- toggler back to top mover -->
+    <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <script>
+        function mobileMenuDisplay() {
+            var x = document.getElementById("mobile-nav");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+
+        let mybutton = document.getElementById("btn-back-to-top");
+        // when window scroll from the top then show the button
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        mybutton.addEventListener("click", backToTop);
+        // mybutton variable listens to the event oncluick and executes the following function
+        function backToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
